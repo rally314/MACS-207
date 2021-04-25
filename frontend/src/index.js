@@ -21,29 +21,58 @@ function randomColor() {
   return `#${red}${green}${blue}`;
 }
 
-const createNodes = () => {
-  const actorData = csvToObjs(DATA_FILENAME);
+const CAST_MEMBER_COLOR = "#e04141";
+const DIRECTOR_COLOR = "#7be041";
+
+const getDistinctDirectors = (actorsData) => {
+  const directors = [];
+
+  for (let i = 0; i < actorsData.length; i++) {
+    if (!directors.includes(actorsData[i].Director))
+      directors.push(actorsData[i].Director)
+  }
+
+  return directors;
 }
 
 const App = () => {
-  createNodes(); 
+  const createGraph = () => {
+    const nodes = [];
+    const edges = [];
+
+    const actorsData = csvToObjs();
+    const directors = getDistinctDirectors(actorsData)
+    let i = 0;
+    for (; i < directors.length; i++) {
+      let node = {
+        id: i,
+        label: directors[i],
+        color: DIRECTOR_COLOR,
+      }
+
+      nodes.push(node);
+    }
+
+
+    for (let j = 0; j < actorsData.length; j++) {
+      let node = {
+        id: i + j,
+        label: actorsData[i].CastMember,
+        color: CAST_MEMBER_COLOR,
+      }
+
+      nodes.push(node);
+    }
+
+    return {
+      nodes: nodes,
+      edges: edges
+    }
+  }
+
   const [state, setState] = useState({
     counter: 5,
-    graph: {
-      nodes: [
-        { id: 1, label: "Node 1", color: "#e04141" },
-        { id: 2, label: "Node 2", color: "#e09c41" },
-        { id: 3, label: "Node 3", color: "#e0df41" },
-        { id: 4, label: "Node 4", color: "#7be041" },
-        { id: 5, label: "Node 5", color: "#41e0c9" }
-      ],
-      edges: [
-        { from: 1, to: 2 },
-        { from: 1, to: 3 },
-        { from: 2, to: 4 },
-        { from: 2, to: 5 }
-      ]
-    },
+    graph: createGraph(),
     events: {
       select: ({ nodes, edges }) => {
         console.log("Selected nodes:");
