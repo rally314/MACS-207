@@ -42,6 +42,8 @@ const App = () => {
 
     const actorsData = csvToObjs();
     const directors = getDistinctDirectors(actorsData)
+    // TODO: Get distinct actors
+
     let i = 0;
     for (; i < directors.length; i++) {
       let node = {
@@ -53,15 +55,30 @@ const App = () => {
       nodes.push(node);
     }
 
-
     for (let j = 0; j < actorsData.length; j++) {
       let node = {
         id: i + j,
-        label: actorsData[i].CastMember,
+        label: actorsData[j].CastMember,
         color: CAST_MEMBER_COLOR,
       }
 
-      nodes.push(node);
+      let edge = null;
+
+      let existingNode = nodes.find((n) => n.label === actorsData[j].CastMember)
+      if (existingNode) {
+        edge = {
+          to: existingNode.id,
+          from: directors.indexOf(actorsData[j].Director)
+        }
+      } else {
+        nodes.push(node);
+        edge = {
+          to: i + j,
+          from: directors.indexOf(actorsData[j].Director)
+        }
+      }
+
+      edges.push(edge)
     }
 
     return {
