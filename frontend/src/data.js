@@ -1,4 +1,4 @@
-Film,Director,Cast Member
+export const data = `Film,Director,Cast Member
 Disco Dancer,Babbar Subash,Mithun Chakraborty
 Disco Dancer,Babbar Subash,Kim
 Disco Dancer,Babbar Subash,Kalpana Iyer
@@ -665,4 +665,4 @@ Bobby,Raj Kapoor,Mansaram
 Bobby,Raj Kapoor,Madhup Sharma
 Bobby,Raj Kapoor,Tina Misquitta
 Bobby,Raj Kapoor,Moolchand
-Bobby,Raj Kapoor,Surendra Rahi
+Bobby,Raj Kapoor,Surendra Rahi`

@@ -1,6 +1,9 @@
 import Graph from "react-graph-vis";
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
+import { csvToObjs } from "./csv-parser";
+
+const DATA_FILENAME = "./data.csv";
 
 const options = {
   layout: {
@@ -18,28 +21,12 @@ function randomColor() {
   return `#${red}${green}${blue}`;
 }
 
+const createNodes = () => {
+  const actorData = csvToObjs(DATA_FILENAME);
+}
+
 const App = () => {
-  const createNode = (x, y) => {
-    const color = randomColor();
-    setState(({ graph: { nodes, edges }, counter, ...rest }) => {
-      const id = counter + 1;
-      const from = Math.floor(Math.random() * (counter - 1)) + 1;
-      return {
-        graph: {
-          nodes: [
-            ...nodes,
-            { id, label: `Node ${id}`, color, x, y }
-          ],
-          edges: [
-            ...edges,
-            { from, to: id }
-          ]
-        },
-        counter: id,
-        ...rest
-      }
-    });
-  }
+  createNodes(); 
   const [state, setState] = useState({
     counter: 5,
     graph: {
@@ -65,25 +52,12 @@ const App = () => {
         console.log(edges);
         alert("Selected node: " + nodes);
       },
-      doubleClick: ({ pointer: { canvas } }) => {
-        createNode(canvas.x, canvas.y);
-      }
     }
   })
+
   const { graph, events } = state;
   return (
     <div>
-      <h1>React graph vis</h1>
-      <p>
-        <a href="https://github.com/crubier/react-graph-vis">Github</a> -{" "}
-        <a href="https://www.npmjs.com/package/react-graph-vis">NPM</a>
-      </p>
-      <p><a href="https://github.com/crubier/react-graph-vis/tree/master/example/src/index.js">Source of this page</a></p>
-      <p>A React component to display beautiful network graphs using vis.js</p>
-      <p>Make sure to visit <a href="http://visjs.org">visjs.org</a> for more info.</p>
-      <p>This package allows to render network graphs using vis.js.</p>
-      <p>Rendered graphs are scrollable, zoomable, retina ready, dynamic</p>
-      <p>In this example, we manage state with react: on double click we create a new node, and on select we display an alert.</p>
       <Graph graph={graph} options={options} events={events} style={{ height: "640px" }} />
     </div>
   );
