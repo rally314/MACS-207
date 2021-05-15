@@ -3,8 +3,6 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import { csvToObjs } from "./csv-parser";
 
-const DATA_FILENAME = "./data.csv";
-
 const options = {
   layout: {
     hierarchical: false
@@ -14,16 +12,14 @@ const options = {
   }
 };
 
-function randomColor() {
-  const red = Math.floor(Math.random() * 256).toString(16).padStart(2, '0');
-  const green = Math.floor(Math.random() * 256).toString(16).padStart(2, '0');
-  const blue = Math.floor(Math.random() * 256).toString(16).padStart(2, '0');
-  return `#${red}${green}${blue}`;
-}
 
 const CAST_MEMBER_COLOR = "#e04141";
 const DIRECTOR_COLOR = "#7be041";
 
+/**
+ * Returns a list of directors, duplicates removed
+ * @param {Array} actorsData Array of objects. Each object should be a CSV row.
+ */
 const getDistinctDirectors = (actorsData) => {
   const directors = [];
 
@@ -35,15 +31,21 @@ const getDistinctDirectors = (actorsData) => {
   return directors;
 }
 
+/**
+ * Entry point to the applicaiton. Renders the screen
+ */
 const App = () => {
+  /**
+   * This does all the main work in the application. It constructs the graph's nodes and edges
+   */
   const createGraph = () => {
     const nodes = [];
     const edges = [];
 
     const actorsData = csvToObjs();
     const directors = getDistinctDirectors(actorsData)
-    // TODO: Get distinct actors
 
+    // Add all directors to graph
     let i = 0;
     for (; i < directors.length; i++) {
       let node = {
@@ -55,6 +57,7 @@ const App = () => {
       nodes.push(node);
     }
 
+    // For each actor, create a node and edge
     for (let j = 0; j < actorsData.length; j++) {
       let node = {
         id: i + j,
@@ -64,6 +67,7 @@ const App = () => {
 
       let edge = null;
 
+      // If the actor already exists, don't create a new node, reuse the existing one
       let existingNode = nodes.find((n) => n.label === actorsData[j].CastMember)
       if (existingNode) {
         edge = {
@@ -87,6 +91,7 @@ const App = () => {
     }
   }
 
+  // Sets the state of the graph
   const [state, setState] = useState({
     counter: 5,
     graph: createGraph(),

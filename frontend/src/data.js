@@ -103,81 +103,81 @@ Ghajini,A.R. Murugadoss,Nidhi Tuli
 Ghajini,A.R. Murugadoss,Vikraal Vij
 Ghajini,A.R. Murugadoss,Kunal Vijaykar
 Ghajini,A.R. Murugadoss,Yusuf
-3 Idiots,Rajkumar Harani,Aamir Khan
-3 Idiots,Rajkumar Harani,Madhavan
-3 Idiots,Rajkumar Harani,Sharman Joshi
-3 Idiots,Rajkumar Harani,Kareena Kapoor
-3 Idiots,Rajkumar Harani,Boman Irani
-3 Idiots,Rajkumar Harani,Omi Vaidya
-3 Idiots,Rajkumar Harani,Mona Singh
-3 Idiots,Rajkumar Harani,Olivier Lafont
-3 Idiots,Rajkumar Harani,Rahul Kumar
-3 Idiots,Rajkumar Harani,Parikshit Sahni
-3 Idiots,Rajkumar Harani,Farida Dadi
-3 Idiots,Rajkumar Harani,Amardeeep Jha
-3 Idiots,Rajkumar Harani,Mukund Bhatt
-3 Idiots,Rajkumar Harani,Chaitali Bose
-3 Idiots,Rajkumar Harani,Javed Jaffrey
-3 Idiots,Rajkumar Harani,Jayant Kripalani
-3 Idiots,Rajkumar Harani,Arun Bali
-3 Idiots,Rajkumar Harani,Shoaib Ahmed
-3 Idiots,Rajkumar Harani,Dushyant Wagh
-3 Idiots,Rajkumar Harani,Pooja Goswami
-3 Idiots,Rajkumar Harani,A.S. Duggal
-3 Idiots,Rajkumar Harani,Annapurna Kaul
-3 Idiots,Rajkumar Harani,R.S. Kodange
-3 Idiots,Rajkumar Harani,Dharmendra Bhurji
-3 Idiots,Rajkumar Harani,Meghna Bhalla
-3 Idiots,Rajkumar Harani,Harvinder Singh
-3 Idiots,Rajkumar Harani,Dilshad Edibam
-3 Idiots,Rajkumar Harani,Rajeev Ravindranathan
-3 Idiots,Rajkumar Harani,Hitesh Tak
-3 Idiots,Rajkumar Harani,Rajendra Patwardhan
-3 Idiots,Rajkumar Harani,Achyut Potdar
-3 Idiots,Rajkumar Harani,Ali Fazal
-3 Idiots,Rajkumar Harani,Madhav Vase
-3 Idiots,Rajkumar Harani,Dileep Desai
-3 Idiots,Rajkumar Harani,Raghunathan
-3 Idiots,Rajkumar Harani,Vaidyanathan
-3 Idiots,Rajkumar Harani,Kumar Veer Singh
-3 Idiots,Rajkumar Harani,Shailja Dhar
-3 Idiots,Rajkumar Harani,Dinesh Kumar
-3 Idiots,Rajkumar Harani,Aakash Dabhade
-3 Idiots,Rajkumar Harani,Apul Jaisinghani
-3 Idiots,Rajkumar Harani,Trilok Sadhwani
-3 Idiots,Rajkumar Harani,Akhil Mishra
-3 Idiots,Rajkumar Harani,Sonu
-3 Idiots,Rajkumar Harani,Atul Tiwari
-3 Idiots,Rajkumar Harani,Praful Kulkarni
-3 Idiots,Rajkumar Harani,Jalil Parkar
-3 Idiots,Rajkumar Harani,Debashish Naha
-3 Idiots,Rajkumar Harani,Michael Joseph
-3 Idiots,Rajkumar Harani,Smriti
-3 Idiots,Rajkumar Harani,Sanjay Sood
-3 Idiots,Rajkumar Harani,Dayal Sharma
-3 Idiots,Rajkumar Harani,Rakesh Sharma
-3 Idiots,Rajkumar Harani,Elihud George
-3 Idiots,Rajkumar Harani,Sarvanna
-3 Idiots,Rajkumar Harani,Tanveer Ahmed
-3 Idiots,Rajkumar Harani,Shankar Sachdev
-3 Idiots,Rajkumar Harani,Kishor Patil
-3 Idiots,Rajkumar Harani,Insia Lacewalla
-3 Idiots,Rajkumar Harani,Keshav Rae
-3 Idiots,Rajkumar Harani,Lata Kurdikar
-3 Idiots,Rajkumar Harani,Suhas Vaidya
-3 Idiots,Rajkumar Harani,Nishi Singh
-3 Idiots,Rajkumar Harani,Saurabh Agnihotri
-3 Idiots,Rajkumar Harani,Sitaram Sharma
-3 Idiots,Rajkumar Harani,Pundit Prayag Raj
-3 Idiots,Rajkumar Harani,Supriya Shukla
-3 Idiots,Rajkumar Harani,Malvika Singh
-3 Idiots,Rajkumar Harani,Tsanwal Namgyal
-3 Idiots,Rajkumar Harani,Jigmet Dorjey
-3 Idiots,Rajkumar Harani,Freny Bhagat
-3 Idiots,Rajkumar Harani,Rohitash Gaud
-3 Idiots,Rajkumar Harani,Komal Jha
-3 Idiots,Rajkumar Harani,Pitobash
-3 Idiots,Rajkumar Harani,Bharat Jha
+3 Idiots,Rajkumar Hirani,Aamir Khan
+3 Idiots,Rajkumar Hirani,Madhavan
+3 Idiots,Rajkumar Hirani,Sharman Joshi
+3 Idiots,Rajkumar Hirani,Kareena Kapoor
+3 Idiots,Rajkumar Hirani,Boman Irani
+3 Idiots,Rajkumar Hirani,Omi Vaidya
+3 Idiots,Rajkumar Hirani,Mona Singh
+3 Idiots,Rajkumar Hirani,Olivier Lafont
+3 Idiots,Rajkumar Hirani,Rahul Kumar
+3 Idiots,Rajkumar Hirani,Parikshit Sahni
+3 Idiots,Rajkumar Hirani,Farida Dadi
+3 Idiots,Rajkumar Hirani,Amardeeep Jha
+3 Idiots,Rajkumar Hirani,Mukund Bhatt
+3 Idiots,Rajkumar Hirani,Chaitali Bose
+3 Idiots,Rajkumar Hirani,Javed Jaffrey
+3 Idiots,Rajkumar Hirani,Jayant Kripalani
+3 Idiots,Rajkumar Hirani,Arun Bali
+3 Idiots,Rajkumar Hirani,Shoaib Ahmed
+3 Idiots,Rajkumar Hirani,Dushyant Wagh
+3 Idiots,Rajkumar Hirani,Pooja Goswami
+3 Idiots,Rajkumar Hirani,A.S. Duggal
+3 Idiots,Rajkumar Hirani,Annapurna Kaul
+3 Idiots,Rajkumar Hirani,R.S. Kodange
+3 Idiots,Rajkumar Hirani,Dharmendra Bhurji
+3 Idiots,Rajkumar Hirani,Meghna Bhalla
+3 Idiots,Rajkumar Hirani,Harvinder Singh
+3 Idiots,Rajkumar Hirani,Dilshad Edibam
+3 Idiots,Rajkumar Hirani,Rajeev Ravindranathan
+3 Idiots,Rajkumar Hirani,Hitesh Tak
+3 Idiots,Rajkumar Hirani,Rajendra Patwardhan
+3 Idiots,Rajkumar Hirani,Achyut Potdar
+3 Idiots,Rajkumar Hirani,Ali Fazal
+3 Idiots,Rajkumar Hirani,Madhav Vase
+3 Idiots,Rajkumar Hirani,Dileep Desai
+3 Idiots,Rajkumar Hirani,Raghunathan
+3 Idiots,Rajkumar Hirani,Vaidyanathan
+3 Idiots,Rajkumar Hirani,Kumar Veer Singh
+3 Idiots,Rajkumar Hirani,Shailja Dhar
+3 Idiots,Rajkumar Hirani,Dinesh Kumar
+3 Idiots,Rajkumar Hirani,Aakash Dabhade
+3 Idiots,Rajkumar Hirani,Apul Jaisinghani
+3 Idiots,Rajkumar Hirani,Trilok Sadhwani
+3 Idiots,Rajkumar Hirani,Akhil Mishra
+3 Idiots,Rajkumar Hirani,Sonu
+3 Idiots,Rajkumar Hirani,Atul Tiwari
+3 Idiots,Rajkumar Hirani,Praful Kulkarni
+3 Idiots,Rajkumar Hirani,Jalil Parkar
+3 Idiots,Rajkumar Hirani,Debashish Naha
+3 Idiots,Rajkumar Hirani,Michael Joseph
+3 Idiots,Rajkumar Hirani,Smriti
+3 Idiots,Rajkumar Hirani,Sanjay Sood
+3 Idiots,Rajkumar Hirani,Dayal Sharma
+3 Idiots,Rajkumar Hirani,Rakesh Sharma
+3 Idiots,Rajkumar Hirani,Elihud George
+3 Idiots,Rajkumar Hirani,Sarvanna
+3 Idiots,Rajkumar Hirani,Tanveer Ahmed
+3 Idiots,Rajkumar Hirani,Shankar Sachdev
+3 Idiots,Rajkumar Hirani,Kishor Patil
+3 Idiots,Rajkumar Hirani,Insia Lacewalla
+3 Idiots,Rajkumar Hirani,Keshav Rae
+3 Idiots,Rajkumar Hirani,Lata Kurdikar
+3 Idiots,Rajkumar Hirani,Suhas Vaidya
+3 Idiots,Rajkumar Hirani,Nishi Singh
+3 Idiots,Rajkumar Hirani,Saurabh Agnihotri
+3 Idiots,Rajkumar Hirani,Sitaram Sharma
+3 Idiots,Rajkumar Hirani,Pundit Prayag Raj
+3 Idiots,Rajkumar Hirani,Supriya Shukla
+3 Idiots,Rajkumar Hirani,Malvika Singh
+3 Idiots,Rajkumar Hirani,Tsanwal Namgyal
+3 Idiots,Rajkumar Hirani,Jigmet Dorjey
+3 Idiots,Rajkumar Hirani,Freny Bhagat
+3 Idiots,Rajkumar Hirani,Rohitash Gaud
+3 Idiots,Rajkumar Hirani,Komal Jha
+3 Idiots,Rajkumar Hirani,Pitobash
+3 Idiots,Rajkumar Hirani,Bharat Jha
 Chennai Express,Rohit Shetty,Deepika Padukone
 Chennai Express,Rohit Shetty,Shah Rukh Khan
 Chennai Express,Rohit Shetty,Sathyaraj
