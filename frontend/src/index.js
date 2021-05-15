@@ -12,7 +12,7 @@ const options = {
   }
 };
 
-
+// Set the colors for director and cast member nodes
 const CAST_MEMBER_COLOR = "#e04141";
 const DIRECTOR_COLOR = "#7be041";
 
@@ -106,6 +106,7 @@ const App = () => {
     }
   })
 
+  // Displays the graph
   const { graph, events } = state;
   return (
     <div>
